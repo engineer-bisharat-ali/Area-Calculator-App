@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.areacalculator">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AreaCalculator"
+        tools:targetApi="31">
+        <activity
+            android:name=".Splash_screen"
+            android:exported="true" >
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".formula_page_of_Sector"
+            android:exported="false" />
+        <activity
+            android:name=".formula_page_of_Square"
+            android:exported="false" />
+        <activity
+            android:name=".formula_page_of_rhombus"
+            android:exported="false" />
+        <activity
+            android:name=".formula_page_of_triangle"
+            android:exported="false" />
+        <activity
+            android:name=".formula_page_of_Rectangle"
+            android:exported="false" />
+        <activity
+            android:name=".formula_page_of_circle"
+            android:exported="false" />
+        <activity
+            android:name=".formula"
+            android:exported="false"
+            android:label="Formula"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Sector"
+            android:exported="false"
+            android:label="Sector"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Square"
+            android:exported="false"
+            android:label="Square"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Rhombus"
+            android:exported="false"
+            android:label="Rhombus"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Triangle"
+            android:exported="false"
+            android:label="Triangle"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Rectangle"
+            android:exported="false"
+            android:label="Rectangle"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".circle"
+            android:exported="false"
+            android:label="Circle"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+
+        </activity>
+    </application>
+
+</manifest>

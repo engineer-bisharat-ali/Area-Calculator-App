@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Area Calculator</string>
+    <string name="edittext_radius">radius</string>
+    <string name="circle">circle</string>
+    <string name="sector">Sector</string>
+    <string name="square">Square</string>
+    <string name="triangle">Triangle</string>
+    <string name="rhombus">Rhombus</string>
+    <string name="rectangle">Rectangle</string>
+</resources>
